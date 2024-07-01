@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이용약관</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="icon" href="static/favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+        .logo span {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .main-content {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f7f7f7;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        p, ul {
+            font-size: 1em;
+            color: #333;
+            line-height: 1.6em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .link-highlight {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo" onclick="location.href='index.html'">
+            <img src="static/logo.png" alt="MeZ Bot Logo">
+            <span>메즈 MeZ</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">홈</a>
+            <a href="https://discord.com/oauth2/authorize?client_id=1249261458928173106&scope=bot&permissions=8">초대하기</a>
+            <a href="commands.html">명령어</a>
+            <a href="contact.html">연락</a>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container fade-in">
+            <h2>이용약관</h2>
+            <p>본 이용약관은 디스코드 봇(이하 "봇")의 사용과 관련된<br>조건 및 정보를 담고 있습니다.</p>
+            <br>
+
+            <h2>1. 서비스 이용</h2>
+            <p>사용자는 디스코드 봇을 통해 다음과 같은 서비스를 이용할 수 있습니다:</p>
+            <ul>
+                <li>게임 기능: 게임 잔액 관리, 복권 구매, 경마 도박, 주식 거래 등</li>
+                <li>유틸리티 기능: 번역, 날씨 정보 제공, 유저 및 서버 정보 조회 등</li>
+                <li>학교 관련 기능: 급식 정보 제공</li>
+                <li>기타 기능: 투표 생성 및 관리, 메모 추가 및 조회, 티켓 생성 및 관리 등</li>
+            </ul>
+            <br>
+
+            <h2>2. 책임의 한계</h2>
+            <p>본 봇은 "있는 그대로" 제공되며, 특정 목적에 대한 적합성이나 완전성을 보증하지 않습니다.<br>봇 사용 중 발생하는 모든 문제에 대한 책임은 사용자에게 있습니다.</p>
+            <br>
+
+            <h2>3. 사용자의 의무</h2>
+            <p>사용자는 봇 사용 중 다음과 같은 의무를 가집니다:</p>
+            <ul>
+                <li>정확한 정보를 제공하며, 허위 정보를 제공하지 않습니다.</li>
+                <li>타인의 권리를 침해하지 않습니다.</li>
+                <li>봇의 정상적인 작동을 방해하지 않습니다.</li>
+            </ul>
+            <br>
+
+            <h2>4. 개인정보 보호 및 사용</h2>
+            <p>① 단체는 관련 법령이 정하는 바에 따라 이용자의 개인정보를 보호하기 위해 노력하며,<br>개인정보의 보호 및 사용에 대해서는 관련 법령 및 단체의 <a href="privacy.html" class="link-highlight">개인정보처리방침</a>에 따릅니다. 다만, 단체가 제공하는 서비스 이외의 링크된 서비스에서는 단체의 개인정보처리방침이 적용되지 않습니다.</p>
+            <br>
+            <p>② 단체는 이용자의 귀책사유로 개인정보가 유출되어 발생한 피해에 대하여 책임을 지지 않습니다.</p>
+            <br>
+
+            <h2>5. 서비스 변경 및 종료</h2>
+            <p>봇 운영자는 언제든지 서비스의 변경, 일시 중단, 종료할 권리를 가집니다.<br>이러한 경우, 사전에 공지하도록 노력하겠습니다.</p>
+            <br>
+
+            <h2>6. 이용약관의 변경</h2>
+            <p>본 약관은 수시로 변경될 수 있으며, 변경된 약관은 게시된 시점부터 효력이 발생합니다.</p>
+            <br>
+
+            <h2>7. 연락처</h2>
+            <p>이용약관에 대한 질문이나 문의사항이 있으시면 <a href="contact.html">연락</a> 페이지를 통해 연락해 주세요.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2024 Trexer(MeZ BOT) All rights reserved.</p>
+    </div>
+</body>
+</html>
